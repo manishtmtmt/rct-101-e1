@@ -1,3 +1,13 @@
 .task {
-  /* Sample  */
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.removeButton {
+  opacity: 0;
+}
+
+.removeButton:hover {
+  opacity: 1;
 }
